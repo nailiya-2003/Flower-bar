@@ -1,0 +1,61 @@
+:root{
+    --pink: #ed2988;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    transition: 0.3s linear;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+body {
+    font-size: 62.2%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(255, 240, 253);
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.5);
+} 
+img.logo {
+    width: 105px;
+    height: 70px;
+    border: 0.5px solid rgb(255, 188, 247);
+    margin-left: 1.8rem;
+}
+header nav a {
+    font-size: 1.5rem;
+    padding: 0 1.5rem;
+    color: #666;
+    text-decoration: none;
+}
+header nav a:hover {
+    color:var(--pink);
+    font-weight: 500;
+    font-size: 1.6rem;
+}
+header .icons a {
+    font-size: 1.6rem;
+    margin-right: 1.8rem;
+    text-decoration: none;
+    color: #333;
+}
+header .icons a:hover {
+    color:var(--pink) ;
+}
+header #toggler {
+    display: none;
+}
