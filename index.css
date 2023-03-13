@@ -36,6 +36,9 @@ img.logo {
     border: 0.5px solid rgb(255, 188, 247);
     margin-left: 1.8rem;
 }
+img.logo:hover {
+    box-shadow:4px 4px 5px #ed2988;
+}
 header nav a {
     font-size: 1.5rem;
     padding: 0 1.5rem;
@@ -56,6 +59,28 @@ header .icons a {
 header .icons a:hover {
     color:var(--pink) ;
 }
+header.fa-bars {
+    font-size: 5rem;
+    color: #333;
+    border-radius: .5rem;
+    padding:.5rem 1.5rem;
+    cursor: pointer;
+}
+.fresh_flowers {
+    width: 100%;
+    min-height: 600px;
+}
 header #toggler {
     display: none;
+}
+h1 {
+    top: 800px;
+    font-size: 20px;
+}
+
+
+@media(max-width:991px) {
+    body {
+        font-size: 55%;
+    } 
 }
