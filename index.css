@@ -59,19 +59,23 @@ header .icons a {
 header .icons a:hover {
     color:var(--pink) ;
 }
-header.fa-bars {
-    font-size: 5rem;
-    color: #333;
-    border-radius: .5rem;
-    padding:.5rem 1.5rem;
-    cursor: pointer;
-}
+
 .fresh_flowers {
     width: 100%;
     min-height: 600px;
 }
 header #toggler {
     display: none;
+}
+header .fa-bars {
+    font-size: 3rem;
+    color: #333;
+    border-radius: .5rem;
+    padding: .5rem 1.5rem;
+    cursor: pointer;
+    border: .1rem solid rgba(0, 0, 0, .3);
+    display: none;
+     
 }
 h1 {
     top: 800px;
@@ -82,5 +86,33 @@ h1 {
 @media(max-width:991px) {
     body {
         font-size: 55%;
+    } 
+    header {
+       padding: 2rem;
+    }
+}
+@media(max-width:750px) {
+    body .fa-bars {
+        display: block;
+    } 
+    header nav {
+       position: absolute;
+       left: 0;
+       right: 0;
+       top: 100%;
+       background:#ffffff;
+       border-top: .1rem solid rgba(0, 0, 0, .1);
+    }
+    header nav a {
+        margin: 1.5rem;
+        padding: 1.5rem;
+        background: #ffffff;
+        border: 1rem solid rgba(0, 0, 0, .1);
+        display: block;
+    }
+}
+@media(max-width:450px) {
+    body {
+        font-size: 50%;
     } 
 }
