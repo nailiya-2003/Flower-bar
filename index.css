@@ -17,32 +17,28 @@ body {
     scroll-padding-top: 6rem;
     overflow-x: hidden;
 }
+section{
+    padding: 1.5rem 8%;
+}
 header {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    background-color: rgb(255, 240, 253);
+    background-color: rgb(255, 144, 201);
     padding: 1rem 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    z-index: 1000;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.5);
 } 
-img.logo {
-    width: 105px;
-    height: 70px;
-    border: 0.5px solid rgb(255, 188, 247);
-    margin-left: 1.8rem;
-}
 img.logo:hover {
     box-shadow:4px 4px 5px #ed2988;
 }
 header nav a {
     font-size: 1.5rem;
     padding: 0 1.5rem;
-    color: #666;
+    color: #fcfcfc;
     text-decoration: none;
 }
 header nav a:hover {
@@ -59,11 +55,6 @@ header .icons a {
 header .icons a:hover {
     color:var(--pink) ;
 }
-
-.fresh_flowers {
-    width: 100%;
-    min-height: 600px;
-}
 header #toggler {
     display: none;
 }
@@ -74,15 +65,108 @@ header .fa-bars {
     padding: .5rem 1.5rem;
     cursor: pointer;
     border: .1rem solid rgba(0, 0, 0, .3);
-    display: none;
-     
+    display: none;    
+}
+.fas.fa-heart {
+    color: #ffe4ee;
+}
+.fas.fa-shopping-cart {
+    color: #ffe4ee;
+}
+.fas.fa-user {
+    color: #ffe4ee;
 }
 h1 {
     top: 800px;
     font-size: 20px;
 }
-
-
+section.home {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url('https://gamerwall.pro/uploads/posts/2022-03/1647901267_1-gamerwall-pro-p-tyulpani-fon-krasivie-2.jpg') center center/cover no-repeat;
+}
+.home .content {
+    max-width: 45rem;
+    margin: 0 auto;
+}
+.home .content h3{
+    font-size: 2.8rem;
+    color: #ff6cce;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    text-align: center;
+    margin-right: 5rem;
+    margin-top: 6.5rem;
+    text-shadow: .1rem .2rem .3rem rgb(255, 59, 193);
+    -webkit-text-stroke: .05rem #000;
+    margin-bottom: 2rem;
+    letter-spacing: .1rem;
+}
+.home .content h3:hover {
+    text-shadow: .1rem .2rem .3rem rgb(255, 198, 237);
+    color: #fcbbe3;
+    cursor: pointer;
+    font-size: 2.85rem;
+    
+}
+.home .content span {
+    display: block;
+    font-size: 1rem;
+    color: var(--pink);
+    line-height: 1;
+    text-align: center;
+    margin-right:6rem;
+    margin-bottom: 1rem;
+}
+.home .content span:hover {
+    cursor: pointer;
+    color: #fd68df;
+    font-size: 1.1rem;
+}
+.home .content p {
+    font-size: 1rem;
+    color: #4a4949;
+    padding: 1rem 0;
+    line-height: 2;
+    margin-bottom: 1.5rem;
+    letter-spacing: .1rem;
+    text-shadow: .1rem .1rem .1rem rgb(153, 152, 152);
+    text-align: justify;
+}
+.home .content p:hover{
+   cursor: pointer;
+   color: #fb21cf;
+   text-shadow: .1rem .1rem .1rem rgb(254, 151, 226);
+   font-size: 1.05rem;
+   transform: translate(-.6rem);
+}
+.btn {
+    display: block;
+    border-radius: 5rem;
+    background: #fac7f0;
+    color: #363535;
+    padding: .8rem 1rem;
+    cursor: pointer;
+    font-size: 1.1rem;
+    text-decoration: none;
+    margin: 0 auto;
+    text-align: center;
+    width: 10rem;
+    height: 3rem;
+    margin-left: 15rem;
+    border:.04rem solid #6d6c6c;
+    box-shadow: .3rem .3rem .2rem -.1rem #9f5185;
+    transition: 1s;
+}
+.btn:hover {
+    display: block;
+    background: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #ec01bd;
+    border: .1rem solid #676565;
+}
 @media(max-width:991px) {
     body {
         font-size: 55%;
@@ -113,6 +197,18 @@ h1 {
     }
     header #toggler:checked ~ nav {
         clip-path: polygon(0 0, 100% 0, 100% 100%,0 100%);
+    }
+    section {
+        padding: 2rem;
+    }
+    .home {
+        background-position: left;
+    }
+    .home .content h3 {
+        font-size: 4rem;
+    }
+    .home .content span {
+        font-size: 2.5rem;
     }
 }
 @media(max-width:450px) {
