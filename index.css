@@ -167,6 +167,17 @@ section.home {
     border: .1rem solid #676565;
     transform: scale(1.1);
 }
+.heading {
+    text-align: center;
+    font-size: 3rem;
+    color: #333;
+    padding: 1rem;
+    margin: 2rem 0;
+    background: rgba(255, 51, 153, .05);
+}
+.heading span {
+    color: var(--pink);
+}
 @media(max-width:991px) {
     body {
         font-size: 55%;
@@ -194,6 +205,19 @@ section.home {
         background: #ffffff;
         border: 1rem solid rgba(0, 0, 0, .1);
         display: block;
+        color: #000;
+    }
+    .about .row {
+        display: flex;
+        align-items: center;
+        padding: 2rem 0;
+        flex-wrap: wrap;
+        gap: 2rem;
+        padding-bottom: 2rem;
+    }
+    .about .row .video_container {
+        flex: 1 1 40rem;
+        position: relative;
     }
     header #toggler:checked ~ nav {
         clip-path: polygon(0 0, 100% 0, 100% 100%,0 100%);
@@ -215,4 +239,7 @@ section.home {
     body {
         font-size: 50%;
     } 
+    .heading {
+        font-size: 2rem;
+    }
 }
