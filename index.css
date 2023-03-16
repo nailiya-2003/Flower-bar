@@ -165,6 +165,7 @@ section.home {
     background: #ffffff;
     color: #ec01bd;
     border: .1rem solid #676565;
+    transform: scale(1.1);
 }
 @media(max-width:991px) {
     body {
