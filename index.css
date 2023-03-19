@@ -19,6 +19,7 @@ body {
 }
 section{
     padding: 1.5rem 8%;
+    
 }
 header {
     position: fixed;
@@ -85,6 +86,7 @@ h1 {
 }
 section.home {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     min-height: 100vh;
     background: url('https://gamerwall.pro/uploads/posts/2022-03/1647901267_1-gamerwall-pro-p-tyulpani-fon-krasivie-2.jpg') center center/cover no-repeat;
@@ -269,7 +271,23 @@ section.home {
     } 
     header {
        padding: 2rem;
-    }  
+    } 
+    .btn {
+        display: block;
+        margin: 0 auto;
+    } 
+    .home .content h3 {
+        margin: 0 auto;
+        margin-top: 10rem;
+    }
+    .home .content span {
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
+    .home .content p {
+        margin: 0 auto;
+        margin-top: 1rem;
+    }
 }
 @media(max-width:750px) {
     body .fa-bars {
@@ -336,4 +354,5 @@ section.home {
     .heading {
         font-size: 2rem;
     }
+    
 }
