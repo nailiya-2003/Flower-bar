@@ -236,11 +236,10 @@ section.home {
 .icons-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
     gap: 1.5rem;
     padding-top: 1.5rem;
     padding-bottom: 0.5rem;
+    background: #eee;
 }
 .icons-container .icons{
     background: #fff;
@@ -248,8 +247,21 @@ section.home {
     padding: 2rem;
     display: flex;
     align-items: center;
-    gap: 1.5rem;
-    flex: 1 1 35rem;
+    gap: 1rem;
+    flex: 1 1 10rem;
+ }  .icons img {
+    width: 4.8rem;
+    height: 4rem;
+    margin-right: 1rem;
+}
+.icons-container .icons h3 {
+    color: #333;
+    padding-bottom: .5rem;
+    font-size: 1.3rem;
+}
+.icons-container .icons span {
+    color: #555;
+    font-size: 1.1rem;
 }
 @media(max-width:991px) {
     body {
