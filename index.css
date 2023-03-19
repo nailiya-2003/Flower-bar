@@ -31,6 +31,7 @@ header {
     align-items: center;
     justify-content: space-between;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.5);
+    z-index: 2;
 } 
 img.logo:hover {
     box-shadow:4px 4px 5px #ed2988;
@@ -182,14 +183,13 @@ section.home {
 .about .row {
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
     padding: 2rem 0;
     gap: 2rem;
     padding-bottom: 3rem;
 }
 .about .row .video_container {
     position: relative;
+    flex: 0 6 40rem;
 }
 .about .row .video_container video{
     width: 100%;
@@ -198,6 +198,7 @@ section.home {
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
     height: 100%;
     object-fit: cover;
+    z-index: 1;
 }
 .about .row .video_container h3 {
     position: absolute;
@@ -209,10 +210,16 @@ section.home {
     padding: 1rem 2rem;
     text-align: center;
     mix-blend-mode: screen;
+    z-index: 1;
+}
+.about .row .content {
+    flex: 0 6 40rem;
+    flex-wrap: wrap;
 }
 .about .row .content h3 {
     font-size: 2rem;
     color: #333;
+    flex: 1 1 40rem;
 }
 .about .row .content p {
     font-size: 1.5rem;
@@ -229,8 +236,20 @@ section.home {
 .icons-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     gap: 1.5rem;
     padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+.icons-container .icons{
+    background: #fff;
+    border: 1rem solid rgba(0, 0, 0, .1);
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    flex: 1 1 35rem;
 }
 @media(max-width:991px) {
     body {
@@ -238,7 +257,7 @@ section.home {
     } 
     header {
        padding: 2rem;
-    }
+    }  
 }
 @media(max-width:750px) {
     body .fa-bars {
@@ -293,6 +312,9 @@ section.home {
     }
     .home .content span {
         font-size: 2.5rem;
+    }
+    .about .row {
+        flex-wrap: wrap;
     }
 }
 @media(max-width:450px) {
