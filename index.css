@@ -371,14 +371,18 @@ section.home {
     .home .content h3 {
         margin: 0 auto;
         margin-top: 10rem;
+        font-weight: 700;
+        font-size: 2rem;
     }
     .home .content span {
         margin: 0 auto;
         margin-top: 2rem;
+        font-size: 1rem;
     }
     .home .content p {
         margin: 0 auto;
         margin-top: 1rem;
+        font-size: 1rem;
     }
 }
 @media(max-width:750px) {
@@ -393,6 +397,12 @@ section.home {
        background:#ffffff;
        border-top: .1rem solid rgba(0, 0, 0, .1);
        clip-path: polygon(0 0, 100% 0, 100% 0,0 0);
+    }
+    .home .content h3 {
+        margin: 0 auto;
+        margin-top: 10rem;
+        font-weight: 700;
+        font-size: 1rem;
     }
     header nav a {
         margin: 1.5rem;
@@ -439,6 +449,19 @@ section.home {
         flex-wrap: wrap;
     }
 }
+@media(max-width:750px) {
+    .home .content h3 {
+        margin: 0 auto;
+        margin-top: 10rem;
+        font-weight: 700;
+        font-size: 2rem;
+    }
+    .home .content span {
+        margin: 0 auto;
+        margin-top: 2rem;
+        font-size: 1rem;
+    }
+}
 @media(max-width:450px) {
     body {
         font-size: 50%;
@@ -446,5 +469,10 @@ section.home {
     .heading {
         font-size: 2rem;
     }
-    
+    .home .content h3 {
+        margin: 0 auto;
+        margin-top: 10rem;
+        font-weight: 700;
+        font-size: 2rem;
+    }
 }
