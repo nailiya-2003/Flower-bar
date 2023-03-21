@@ -250,8 +250,9 @@ section.home {
     display: flex;
     align-items: center;
     gap: 1rem;
-    flex: 1 1 rem;
- }  .icons img {
+    flex: 1 1 10rem;
+ }  
+ .icons img {
     width: 4.8rem;
     height: 4rem;
     margin-right: 1rem;
