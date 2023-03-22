@@ -357,6 +357,47 @@ section.home {
     color: var(--pink);
     font-weight: lighter;
 }
+.review .box-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.review h1 {
+    display: block;
+    margin: 0 auto;
+}
+.review .box-container .box{
+    flex: 1 1 10rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+    border-radius: .5rem;
+    padding: 3rem 2rem;
+    position: relative;
+   
+}
+.review .box-container .box .fa-quote-right{
+    position: absolute;
+    bottom: 3rem;
+    right: 3rem;
+    font-size: 6rem;
+    color: #eee;
+}
+.review .box-container .box .stars i{
+    color: var(--pink);
+    font-size: 2rem;
+}
+.review .box-container .box p {
+    color: #333;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    padding-top: 2rem;
+}
+.review .box-container .box .user {
+    display: flex;
+    align-items: center;
+    padding-top: 2rem;
+    gap: 1.5rem;
+}
 @media(max-width:991px) {
     body {
         font-size: 55%;
@@ -383,6 +424,10 @@ section.home {
         margin: 0 auto;
         margin-top: 1rem;
         font-size: 1rem;
+    }
+    .about .row .video_container h3  {
+        font-size: 1.5rem;
+        padding: 1rem 2rem;
     }
 }
 @media(max-width:750px) {
@@ -430,6 +475,10 @@ section.home {
         border-radius: .5rem;
         box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
     }
+    .about .row .video_container h3  {
+        font-size: 1.5rem;
+        padding: 1rem 2rem;
+    }
     header #toggler:checked ~ nav {
         clip-path: polygon(0 0, 100% 0, 100% 100%,0 100%);
     }
@@ -448,18 +497,24 @@ section.home {
     .about .row {
         flex-wrap: wrap;
     }
+    .about .row .video_container h3  {
+        font-size: 1rem;
+    }
 }
 @media(max-width:750px) {
     .home .content h3 {
         margin: 0 auto;
         margin-top: 10rem;
         font-weight: 700;
-        font-size: 2rem;
+        font-size: 1rem;
     }
     .home .content span {
         margin: 0 auto;
         margin-top: 2rem;
         font-size: 1rem;
+    }
+    .about .row .video_container h3  {
+        font-size: 2rem;
     }
 }
 @media(max-width:450px) {
@@ -474,5 +529,9 @@ section.home {
         margin-top: 10rem;
         font-weight: 700;
         font-size: 2rem;
+    }
+    .about .row .video_container h3  {
+        font-size: 1.5rem;
+        padding: 1rem 2rem;
     }
 }
