@@ -526,9 +526,9 @@ section.home {
 @media(max-width:650px) {
     .home .content h3 {
         margin: 0 auto;
-        margin-top: 10rem;
+        margin-top: 5rem;
         font-weight: 700;
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
     .home .content span {
         margin: 0 auto;
