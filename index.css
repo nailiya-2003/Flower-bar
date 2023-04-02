@@ -581,7 +581,56 @@ section.home {
         display: none;
     }
 }
-@media(max-width:991px) {
+@media(min-width:1200px) and (max-width:1517px) {
+    .box-container {
+        display: flex;
+        flex-wrap: no-wrap;
+        gap: 3rem;
+        margin-top: 5rem;
+    }
+    .box-container .box {
+        box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+        border-radius: .5rem;
+        border: .1rem solid rgba(0, 0, 0, .1);
+        position: relative;
+        width: 20rem;
+        height: 36rem;
+        overflow: hidden;
+    }
+    .box-container .box .discount .image {
+        overflow: hidden;
+    }
+    .image img{
+       width: 100%;
+       height: 23rem;   
+    }
+    
+}
+@media(min-width:750px) and (max-width:977px) {
+    .box-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        margin-top: 5rem;
+    }
+    .box-container .box {
+        box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+        border-radius: .5rem;
+        border: .1rem solid rgba(0, 0, 0, .1);
+        position: relative;
+        width: 21rem;
+        height: 36rem;
+        overflow: hidden;
+    }
+    .box-container .box .discount .image {
+        overflow: hidden;
+    }
+    .image img{
+       width: 100%;
+       height: 23rem;   
+    }
+}
+@media(max-width:900px) {
     body {
         font-size: 55%;
     } 
