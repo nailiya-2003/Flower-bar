@@ -533,54 +533,8 @@ section.home {
 .footer .credit span {
     color: var(--pink);
 }
-@media(max-width:450px) {
-    body {
-        font-size: 50%;
-    } 
-    .heading {
-        font-size: 2rem;
-    }
-    .home .content h3 {
-        margin: 0 auto;
-        margin-top: 10rem;
-        font-weight: 700;
-        font-size: 2rem;
-    }
-    .about .row .video_container h3  {
-        font-size: 1.5rem;
-        padding: 1rem 2rem;
-        
-    }
-    .about .row {
-        padding: 0.1rem 0;
-    }
-    .box {
-        width: 100%;
-    }
-    .box img {
-        width: 100%;
-        object-fit: cover;
-    }
-}
-@media(max-width:650px) {
-    .home .content h3 {
-        margin: 0 auto;
-        margin-top: 5rem;
-        font-weight: 700;
-        font-size: 2rem;
-    }
-    .home .content span {
-        margin: 0 auto;
-        margin-top: 2rem;
-        font-size: 1rem;
-    }
-    .about .row .video_container h3  {
-        font-size: 2rem;
-    }
-    header a {
-        display: none;
-    }
-}
+
+
 @media(min-width:1200px) and (max-width:1517px) {
     .box-container {
         display: flex;
@@ -751,5 +705,53 @@ section.home {
     }
     .about .row .video_container h3  {
         font-size: 1rem;
+    }
+}
+@media(max-width:680px) {
+    .home .content h3 {
+        margin: 0 auto;
+        margin-top: 5rem;
+        font-weight: 700;
+        font-size: 2rem;
+    }
+    .home .content span {
+        margin: 0 auto;
+        margin-top: 2rem;
+        font-size: 1rem;
+    }
+    .about .row .video_container h3  {
+        font-size: 2rem;
+    }
+    header a {
+        display: none;
+    }
+}
+@media(max-width:450px) {
+    body {
+        font-size: 50%;
+    } 
+    .heading {
+        font-size: 2rem;
+    }
+    .home .content h3 {
+        margin: 0 auto;
+        margin-top: 10rem;
+        font-weight: 700;
+        font-size: 2rem;
+    }
+    .about .row .video_container h3  {
+        font-size: 1.5rem;
+        padding: 1rem 2rem;
+        
+    }
+    .about .row {
+        padding: 0.1rem 0;
+    }
+    .box {
+        width: 100%;
+    }
+    .box img {
+        width: 100%;
+        object-fit: cover;
     }
 }
