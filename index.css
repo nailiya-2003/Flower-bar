@@ -336,8 +336,32 @@ section.home {
 .box.active .image img.blue {
     height: 23rem;
 }
+.box.active .image img.yellow {
+    height: 23rem;
+}
+.box.active .image img.pioni {
+    height: 26rem;
+}
+.box.active .image img.margaritta {
+    height: 23rem;
+}
+.box.active .image img.daffodils {
+    height: 23rem;
+}
+.box.active .image img.chamomile{
+    height: 23rem;
+}
+.box.active .image img.german{
+    height: 25rem;
+}
 .image img:hover {
     transform: scale(1.05);
+}
+.box.active .content.ger h3 {
+    font-size: 1.5rem;
+}
+.box.active .content.ger .price{
+    font-size: 1.5rem;
 }
 .icons-con{
     position: absolute;
