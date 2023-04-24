@@ -309,10 +309,6 @@ section.home {
     display: block;
     width: 50%;
 }
-.box-container .box.active img {
-    height: 100%;
-    object-fit: cover;
-} 
 .box-container .box.active .image img {
     height: 100%;
 }
@@ -336,6 +332,9 @@ section.home {
 .image img{
     width: 23rem;
     height: 23rem;   
+}
+.box.active .image img.blue {
+    height: 23rem;
 }
 .image img:hover {
     transform: scale(1.05);

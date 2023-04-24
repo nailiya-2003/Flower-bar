@@ -121,7 +121,7 @@
                 <div class="addinfo addinfo2 active" onclick="togglethird()">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates soluta eveniet tempora voluptatem facilis, quaerat laborum ea quisquam, doloremque ab eius magni excepturi eligendi natus beatae, distinctio veniam voluptas incidunt.</div>    
                 <span class="discount">-15%</span>
                 <div class="image">
-                    <img src="img/F-768.webp" alt="blueflowers">
+                    <img src="img/F-768.webp" alt="blueflowers" class="blue">
                     <div class="icons-con">
                         <a href="#" class="fas fa-heart"></a>
                         <a href="#" class="cart-btn">add to cart</a>
@@ -137,7 +137,7 @@
                 <div class="addinfo addinfo3 active" onclick="toggleforth()">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates soluta eveniet tempora voluptatem facilis, quaerat laborum ea quisquam, doloremque ab eius magni excepturi eligendi natus beatae, distinctio veniam voluptas incidunt.</div>    
                 <span class="discount">-25%</span>
                 <div class="image">
-                    <img src="img/51n_Newflora.ru--525x600.jpg" alt="purples">
+                    <img src="img/51n_Newflora.ru--525x600.jpg" alt="purples" class="yellow">
                     <div class="icons-con">
                         <a href="#" class="fas fa-heart"></a>
                         <a href="#" class="cart-btn">add to cart</a>
@@ -165,8 +165,8 @@
                     <div class="price">$12.99 <span>$15.99</span></div>
                 </div>
             </div>
-            <div class="box active" onclick="togglebox()">
-                <div class="addinfo active" onclick="togglebox()">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates soluta eveniet tempora voluptatem facilis, quaerat laborum ea quisquam, doloremque ab eius magni excepturi eligendi natus beatae, distinctio veniam voluptas incidunt.</div>    
+            <div class="box box5 active" onclick="togglesix()">
+                <div class="addinfo addinfo5 active" onclick="togglesix()">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates soluta eveniet tempora voluptatem facilis, quaerat laborum ea quisquam, doloremque ab eius magni excepturi eligendi natus beatae, distinctio veniam voluptas incidunt.</div>    
                 <span class="discount">-5%</span>
                 <div class="image">
                     <img src="img/b_cm310.jpg" alt="margarita">
@@ -181,8 +181,8 @@
                     <div class="price">$12.99 <span>$15.99</span></div>
                 </div>
             </div>
-            <div class="box active" onclick="togglebox()">
-                <div class="addinfo active" onclick="togglebox()">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates soluta eveniet tempora voluptatem facilis, quaerat laborum ea quisquam, doloremque ab eius magni excepturi eligendi natus beatae, distinctio veniam voluptas incidunt.</div>    
+            <div class="box box6 active" onclick="toggleseven()">
+                <div class="addinfo addinfo6 active" onclick="toggleseven()">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates soluta eveniet tempora voluptatem facilis, quaerat laborum ea quisquam, doloremque ab eius magni excepturi eligendi natus beatae, distinctio veniam voluptas incidunt.</div>    
                 <span class="discount">-20%</span>
                 <div class="image">
                     <img src="img/depositphotos_147564897-stock-photo-beautiful-white-lilies.jpg" alt="daffodils">
@@ -197,8 +197,8 @@
                     <div class="price">$12.99 <span>$15.99</span></div>
                 </div>
             </div>
-            <div class="box active" onclick="togglebox()">
-                <div class="addinfo active" onclick="togglebox()">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates soluta eveniet tempora voluptatem facilis, quaerat laborum ea quisquam, doloremque ab eius magni excepturi eligendi natus beatae, distinctio veniam voluptas incidunt.</div>    
+            <div class="box box7 active" onclick="toggleeight()">
+                <div class="addinfo addinfo7 active" onclick="toggleeight()">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates soluta eveniet tempora voluptatem facilis, quaerat laborum ea quisquam, doloremque ab eius magni excepturi eligendi natus beatae, distinctio veniam voluptas incidunt.</div>    
                 <span class="discount">-10%</span>
                 <div class="image">
                     <img src="img/Sunflowers_Vase_(1).jpg" alt="chamomile">
@@ -213,8 +213,8 @@
                     <div class="price">$12.99 <span>$15.99</span></div>
                 </div>
             </div>
-            <div class="box active" onclick="togglebox()">
-                <div class="addinfo active" onclick="togglebox()">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates soluta eveniet tempora voluptatem facilis, quaerat laborum ea quisquam, doloremque ab eius magni excepturi eligendi natus beatae, distinctio veniam voluptas incidunt.</div>    
+            <div class="box box8 active" onclick="togglenine()">
+                <div class="addinfo addinfo8 active" onclick="togglenine()">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates soluta eveniet tempora voluptatem facilis, quaerat laborum ea quisquam, doloremque ab eius magni excepturi eligendi natus beatae, distinctio veniam voluptas incidunt.</div>    
                 <span class="discount">-20%</span>
                 <div class="image">
                     <img src="img/germinky.webp" alt="germanski">
@@ -379,6 +379,24 @@
                 var addinfo4 = document.querySelector('.addinfo5')
                 box5.classList.toggle('active')   
                 addinfo5.classList.toggle('active')
+            }
+            function toggleseven() {
+                var box6 = document.querySelector('.box6')
+                var addinfo6 = document.querySelector('.addinfo6')
+                box6.classList.toggle('active')   
+                addinfo6.classList.toggle('active')
+            }
+            function toggleeight() {
+                var box7 = document.querySelector('.box7')
+                var addinfo7 = document.querySelector('.addinfo7')
+                box7.classList.toggle('active')   
+                addinfo7.classList.toggle('active')
+            }
+            function togglenine() {
+                var box8 = document.querySelector('.box8')
+                var addinfo8 = document.querySelector('.addinfo8')
+                box8.classList.toggle('active')   
+                addinfo8.classList.toggle('active')
             }
         </script>
 </body>
