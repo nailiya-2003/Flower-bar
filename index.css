@@ -243,7 +243,6 @@ section.about {
     margin-top: .9rem;
     border-radius: 0;
 }
-
 .icons-container {
     display: flex;
     flex-wrap: wrap;
@@ -275,6 +274,11 @@ section.about {
     color: #555;
     font-size: 1.1rem;
 }
+.products {
+    position: relative;
+    z-index: -3;
+    background-color: #f2f2f2;
+}
 .box-container {
     display: flex;
     flex-wrap: wrap;
@@ -291,6 +295,8 @@ section.about {
     width: 23rem;
     height: 36rem;
     overflow: hidden;
+    background-color: #fff;
+    z-index: 1; 
     /* width: inherit; */
 }
 .box.active {
@@ -401,7 +407,7 @@ button.tulip {
     right: 0;
     display: flex;
     transition: 0.5s;
-    z-index: -1;
+    z-index: -2;
 }
 .box-container .box:hover .image .icons-con {
     bottom: 7.2rem;
@@ -431,11 +437,13 @@ button.tulip {
     background: #333;
 }
 .box .content{
+    position: absolute;
     padding: 2rem;
     text-align: center;
-    z-index: 2;
     background: #fff;
     margin-top: 5rem;
+    z-index: -2;
+    width: 100%;
 } 
 .box .content h3 {
     font-size: 2rem;
@@ -453,6 +461,144 @@ button.tulip {
 }
 .review {
     background: url('img/flowers\ \(2\).png') center center/cover no-repeat;
+}
+
+.img-1{
+    position: absolute;
+    top: 10rem;
+    right: 7.6rem;
+    width: 20rem;
+    height: 30rem;
+    z-index: -1;
+    border-radius: 5px;
+}
+.img-2{
+    position: absolute;
+    top: 38rem;
+    right: 10rem;
+    width: 20rem;
+    height: 30rem;
+    z-index: -1;
+    border-radius: 5px;
+}
+.img-3{
+    position: absolute;
+    top: 65rem;
+    right: 7.6rem;
+    width: 20rem;
+    height: 30rem;
+    z-index: -2;
+    border-radius: 5px;
+}
+.img-4{
+    position: absolute;
+    top: 93rem;
+    right: 10rem;
+    width: 20rem;
+    height: 30rem;
+    z-index: -1;
+    border-radius: 5px;
+}
+.img-5{
+    position: absolute;
+    top: 120rem;
+    right: 7.6rem;
+    width: 20rem;
+    height: 30rem;
+    z-index: -2;
+    border-radius: 5px;
+}
+.img-6{
+    position: absolute;
+    top: 147rem;
+    right: 10rem;
+    width: 20rem;
+    height: 30rem;
+    z-index: -1;
+    border-radius: 5px;
+}
+.img-7{
+    position: absolute;
+    top: 175rem;
+    right: 7.6rem;
+    width: 20rem;
+    height: 30rem;
+    z-index: -2;
+    border-radius: 5px;
+}
+.img-8{
+    position: absolute;
+    top: 203rem;
+    right: 10rem;
+    width: 20rem;
+    height: 30rem;
+    z-index: -1;
+    border-radius: 5px;
+}
+.img-9{
+    position: absolute;
+    top: 230rem;
+    right: 7.6rem;
+    width: 20rem;
+    height: 30rem;
+    z-index: -2;
+    border-radius: 5px;
+}
+.img-10{
+    position: absolute;
+    top: 258rem;
+    right: 10rem;
+    width: 20rem;
+    height: 30rem;
+    z-index: -1;
+    border-radius: 5px;
+}
+.img-11{
+    position: absolute;
+    top: 285rem;
+    right: 7.6rem;
+    width: 20rem;
+    height: 30rem;
+    z-index: -2;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.img-12{
+    position: absolute;
+    top: 312rem;
+    right: 10rem;
+    width: 20rem;
+    height: 30rem;
+    z-index: -1;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.img-13{
+    position: absolute;
+    top: 340rem;
+    right: 7.6rem;
+    width: 20rem;
+    height: 30rem;
+    z-index: -2;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.thankstext {
+    position: absolute;
+    top: 375rem;
+    right: 13rem;
+    font-size: 1.5rem;
+    color: #f74cb8;
+    font-style: italic;
+    animation: text 1s linear infinite;
+}
+@keyframes text {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.2);
+    }
 }
 .review .box-container {
     display: flex;
@@ -511,7 +657,7 @@ button.tulip {
     transform: scale(1.1);
 }
 .contact {
-   
+    background: url('') center center/cover no-repeat;
 }
 .contact .heading {
     display: flex;
@@ -586,6 +732,9 @@ button.tulip {
     color: #ec01bd;
     border: .1rem solid #676565;
     transform: scale(1.1);
+}
+.footer {
+    background-color: #ffebeb;
 }
 .footer .box-container1{
     display: flex;
