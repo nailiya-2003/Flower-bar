@@ -187,6 +187,9 @@ section.home {
 .heading span {
     color: var(--pink);
 }
+section.about {
+    opacity: 1;
+}
 .about .row {
     display: flex;
     align-items: center;
@@ -240,6 +243,7 @@ section.home {
     margin-top: .9rem;
     border-radius: 0;
 }
+
 .icons-container {
     display: flex;
     flex-wrap: wrap;
@@ -303,7 +307,7 @@ section.home {
     top: 0%;
     height: 100%;
     z-index: 1;
-    background-color: #ffbfe7;
+    background-color: #ffe8f6;
     color: #43103d;
     padding: 50px;
     font-size: 1rem;
@@ -321,6 +325,7 @@ section.home {
     right: 0px;
     z-index: -1;
     object-fit: cover;
+    opacity: 0.8;
 }
 button.tulip {
     position: absolute;
@@ -446,6 +451,9 @@ button.tulip {
     color: var(--pink);
     font-weight: lighter;
 }
+.review {
+    background: url('img/flowers\ \(2\).png') center center/cover no-repeat;
+}
 .review .box-container {
     display: flex;
     align-items: center;
@@ -501,6 +509,9 @@ button.tulip {
 }
 .review .box-container .box .user img:hover{
     transform: scale(1.1);
+}
+.contact {
+   
 }
 .contact .heading {
     display: flex;
