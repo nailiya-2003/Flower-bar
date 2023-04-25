@@ -276,8 +276,6 @@ section.about {
 }
 .products {
     position: relative;
-    z-index: -3;
-    background-color: #f2f2f2;
 }
 .box-container {
     display: flex;
@@ -331,7 +329,7 @@ section.about {
     right: 0px;
     z-index: -1;
     object-fit: cover;
-    opacity: 0.8;
+    opacity: 0.4;
 }
 button.tulip {
     position: absolute;
@@ -657,7 +655,7 @@ button.tulip {
     transform: scale(1.1);
 }
 .contact {
-    background: url('') center center/cover no-repeat;
+    background-color: #f7f7f7;
 }
 .contact .heading {
     display: flex;
@@ -802,6 +800,7 @@ button.tulip {
     .box .addinfo.active{
         display: none;
     }  
+    
 }
 @media(min-width:750px) and (max-width:977px) {
     .box-container {
@@ -827,6 +826,9 @@ button.tulip {
        height: 23rem;   
     }
     .box .addinfo.active{
+        display: none;
+    }
+    .flowers-img {
         display: none;
     }
 }
@@ -881,7 +883,9 @@ button.tulip {
     .box .addinfo.active{
         display: none;
     }
-
+    .flowers-img {
+        display: none;
+    }
 }
 @media(max-width:750px) {
 
@@ -960,6 +964,9 @@ button.tulip {
     .box .addinfo.active{
         display: none;
     }
+    .flowers-img {
+        display: none;
+    }
 }
 @media(max-width:680px) {
     .home .content h3 {
@@ -987,6 +994,9 @@ button.tulip {
     }
     .box.active img{
         width: 100%;
+    }
+    .flowers-img {
+        display: none;
     }
 }
 @media(max-width:450px) {
@@ -1019,5 +1029,7 @@ button.tulip {
         height: 100%;
         object-fit: cover;
     }
-    
+    .flowers-img {
+        display: none;
+    }
 }
