@@ -460,10 +460,9 @@ button.tulip {
 .review {
     background: url('img/flowers\ \(2\).png') center center/cover no-repeat;
 }
-
 .img-1{
     position: absolute;
-    top: 10rem;
+    top: 14rem;
     right: 7.6rem;
     width: 20rem;
     height: 30rem;
@@ -473,7 +472,7 @@ button.tulip {
 }
 .img-2{
     position: absolute;
-    top: 38rem;
+    top: 42rem;
     right: 10rem;
     width: 20rem;
     height: 30rem;
@@ -483,7 +482,7 @@ button.tulip {
 }
 .img-3{
     position: absolute;
-    top: 65rem;
+    top: 69rem;
     right: 7.6rem;
     width: 20rem;
     height: 30rem;
@@ -493,7 +492,7 @@ button.tulip {
 }
 .img-4{
     position: absolute;
-    top: 93rem;
+    top: 97rem;
     right: 10rem;
     width: 20rem;
     height: 30rem;
@@ -503,7 +502,7 @@ button.tulip {
 }
 .img-5{
     position: absolute;
-    top: 120rem;
+    top: 124rem;
     right: 7.6rem;
     width: 20rem;
     height: 30rem;
@@ -513,7 +512,7 @@ button.tulip {
 }
 .img-6{
     position: absolute;
-    top: 147rem;
+    top: 152rem;
     right: 10rem;
     width: 20rem;
     height: 30rem;
@@ -523,7 +522,7 @@ button.tulip {
 }
 .img-7{
     position: absolute;
-    top: 175rem;
+    top: 179rem;
     right: 7.6rem;
     width: 20rem;
     height: 30rem;
@@ -533,7 +532,7 @@ button.tulip {
 }
 .img-8{
     position: absolute;
-    top: 203rem;
+    top: 207rem;
     right: 10rem;
     width: 20rem;
     height: 30rem;
@@ -543,7 +542,7 @@ button.tulip {
 }
 .img-9{
     position: absolute;
-    top: 230rem;
+    top: 234rem;
     right: 7.6rem;
     width: 20rem;
     height: 30rem;
@@ -553,7 +552,7 @@ button.tulip {
 }
 .img-10{
     position: absolute;
-    top: 258rem;
+    top: 262rem;
     right: 10rem;
     width: 20rem;
     height: 30rem;
@@ -563,7 +562,7 @@ button.tulip {
 }
 .img-11{
     position: absolute;
-    top: 285rem;
+    top: 289rem;
     right: 7.6rem;
     width: 20rem;
     height: 30rem;
@@ -574,7 +573,7 @@ button.tulip {
 }
 .img-12{
     position: absolute;
-    top: 312rem;
+    top: 316rem;
     right: 10rem;
     width: 20rem;
     height: 30rem;
@@ -585,7 +584,7 @@ button.tulip {
 }
 .img-13{
     position: absolute;
-    top: 340rem;
+    top: 344rem;
     right: 7.6rem;
     width: 20rem;
     height: 30rem;
@@ -596,7 +595,7 @@ button.tulip {
 }
 .thankstext {
     position: absolute;
-    top: 375rem;
+    top: 379rem;
     right: 13rem;
     font-size: 1.5rem;
     color: #f74cb8;
@@ -746,6 +745,7 @@ button.tulip {
 }
 .footer {
     background-color: #ffebeb;
+    padding: 4rem 5rem;
 }
 .footer .box-container1{
     display: flex;
@@ -807,6 +807,12 @@ h1.heading {
 .footer .credit span {
     color: var(--pink);
 }
+.thankyou img{
+    margin-top: 30px;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #9f5185;
+}
 @media(min-width:1200px) and (max-width:1517px) {
     .box-container {
         display: flex;
@@ -864,6 +870,13 @@ h1.heading {
     .flowers-img {
         display: none;
     }
+    .history p{
+        font-size: 1.2rem;
+        max-width: 100%;
+    }
+    h1.heading {
+        font-size: 2rem;
+    }
 }
 @media(max-width:900px) {
     body {
@@ -918,6 +931,13 @@ h1.heading {
     }
     .flowers-img {
         display: none;
+    }
+    .history p{
+        font-size: 1.2rem;
+        max-width: 100%;
+    }
+    h1.heading {
+        font-size: 2rem;
     }
 }
 @media(max-width:750px) {
@@ -1000,6 +1020,17 @@ h1.heading {
     .flowers-img {
         display: none;
     }
+    .thankyou img{
+        margin: 0 auto;
+        width: 100%;
+    }
+    .history p{
+        font-size: 1.2rem;
+        max-width: 100%;
+    }
+    h1.heading {
+        font-size: 2rem;
+    }
 }
 @media(max-width:680px) {
     .home .content h3 {
@@ -1039,17 +1070,9 @@ h1.heading {
     .history p{
         font-size: 1.2rem;
         max-width: 100%;
-        display: block;
-        margin: 0 auto;
-        margin-top: 3rem;
-        color: #3a3333;
-        background-color: #fff4f9;
-        opacity: 0.7;
+  
     }
     h1.heading {
-        display: block;
-        background-color: #ffe8f2;
-        margin: 0 auto;
         font-size: 2rem;
     }
 }
@@ -1086,4 +1109,5 @@ h1.heading {
     .flowers-img {
         display: none;
     }
+  
 }
