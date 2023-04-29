@@ -469,6 +469,7 @@ button.tulip {
     height: 30rem;
     z-index: -1;
     border-radius: 5px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.5);
 }
 .img-2{
     position: absolute;
@@ -478,6 +479,7 @@ button.tulip {
     height: 30rem;
     z-index: -1;
     border-radius: 5px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.5);
 }
 .img-3{
     position: absolute;
@@ -487,6 +489,7 @@ button.tulip {
     height: 30rem;
     z-index: -2;
     border-radius: 5px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.5);
 }
 .img-4{
     position: absolute;
@@ -496,6 +499,7 @@ button.tulip {
     height: 30rem;
     z-index: -1;
     border-radius: 5px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.5);
 }
 .img-5{
     position: absolute;
@@ -505,6 +509,7 @@ button.tulip {
     height: 30rem;
     z-index: -2;
     border-radius: 5px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.5);
 }
 .img-6{
     position: absolute;
@@ -514,6 +519,7 @@ button.tulip {
     height: 30rem;
     z-index: -1;
     border-radius: 5px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.5);
 }
 .img-7{
     position: absolute;
@@ -523,6 +529,7 @@ button.tulip {
     height: 30rem;
     z-index: -2;
     border-radius: 5px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.5);
 }
 .img-8{
     position: absolute;
@@ -532,6 +539,7 @@ button.tulip {
     height: 30rem;
     z-index: -1;
     border-radius: 5px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.5);
 }
 .img-9{
     position: absolute;
@@ -541,6 +549,7 @@ button.tulip {
     height: 30rem;
     z-index: -2;
     border-radius: 5px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.5);
 }
 .img-10{
     position: absolute;
@@ -550,6 +559,7 @@ button.tulip {
     height: 30rem;
     z-index: -1;
     border-radius: 5px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.5);
 }
 .img-11{
     position: absolute;
@@ -560,6 +570,7 @@ button.tulip {
     z-index: -2;
     object-fit: cover;
     border-radius: 5px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.5);
 }
 .img-12{
     position: absolute;
@@ -570,6 +581,7 @@ button.tulip {
     z-index: -1;
     object-fit: cover;
     border-radius: 5px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.5);
 }
 .img-13{
     position: absolute;
@@ -580,6 +592,7 @@ button.tulip {
     z-index: -2;
     object-fit: cover;
     border-radius: 5px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.5);
 }
 .thankstext {
     position: absolute;
@@ -770,6 +783,26 @@ button.tulip {
     font-size: 2rem;
     color: #333;
     border-top: .1rem solid rgba(0, 0, 0, .1);
+}
+.history {
+    padding: 2rem 8rem;
+    min-height: 900px;
+    background: url('img/My\ project-1\ \(6\).png') center center/cover no-repeat;   
+}
+.history p{
+    font-size: 1.4rem;
+    max-width: 60%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 3rem;
+    color: #3a3333;
+    background-color: #fff4f9;
+    opacity: 0.7;
+}
+h1.heading {
+    display: block;
+    background-color: #ffe8f2;
+    margin: 0 auto;
 }
 .footer .credit span {
     color: var(--pink);
@@ -997,6 +1030,27 @@ button.tulip {
     }
     .flowers-img {
         display: none;
+    }
+    .history {
+        padding: 1rem 4rem;
+        min-height: 900px;
+        background: url('img/My\ project-1\ \(6\).png') center center/cover no-repeat;   
+    }
+    .history p{
+        font-size: 1.2rem;
+        max-width: 100%;
+        display: block;
+        margin: 0 auto;
+        margin-top: 3rem;
+        color: #3a3333;
+        background-color: #fff4f9;
+        opacity: 0.7;
+    }
+    h1.heading {
+        display: block;
+        background-color: #ffe8f2;
+        margin: 0 auto;
+        font-size: 2rem;
     }
 }
 @media(max-width:450px) {
