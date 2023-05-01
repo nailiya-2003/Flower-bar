@@ -83,12 +83,6 @@ header .fa-bars {
 .fas.fa-user {
     color: #ffe4ee;
 }
-h1 {
-    display: inline-block;
-    top: 800px;
-    font-size: 20px;;
-    animation: animate 2s linear infinite;
-}
 section.home {
     display: flex;
     flex-wrap: wrap;
@@ -176,6 +170,10 @@ section.home {
     border: .1rem solid #676565;
     transform: scale(1.1);
 }
+
+section.about {
+    opacity: 1;
+}
 .heading {
     text-align: center;
     font-size: 3rem;
@@ -186,9 +184,6 @@ section.home {
 }
 .heading span {
     color: var(--pink);
-}
-section.about {
-    opacity: 1;
 }
 .about .row {
     display: flex;
@@ -457,7 +452,7 @@ button.tulip {
     color: var(--pink);
     font-weight: lighter;
 }
-.review {
+section.review {
     background: url('img/flowers\ \(2\).png') center center/cover no-repeat;
 }
 .img-1{
@@ -743,7 +738,7 @@ button.tulip {
     border: .1rem solid #676565;
     transform: scale(1.1);
 }
-.footer {
+section.footer {
     background-color: #ffebeb;
     padding: 4rem 5rem;
 }
